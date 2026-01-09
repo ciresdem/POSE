@@ -6,17 +6,12 @@ title: "CUDEM/IVERT: POSE Phase I"
 
 # CUDEM+IVERT: An Open-Source Framework for Rapid Development and Validation of High-Accuracy Digital Elevation Models
 
-## Get Involved
-
-- Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLScK46myKuESCu81U9zdKha8NXqHny86MZinutPvvTLoGAsDVQ/viewform)
-- Join our [Zulip](https://cudem.zulipchat.com/)
-
 ## Code
 
 ### Links
 
-- [CUDEM](https://github.com/ciresdem/cudem)
-- [IVERT](https://github.com/ciresdem/ivert)
+- [CUDEM](https://github.com/ciresdem/cudem) - FOSS DEM generation suite.
+- [IVERT](https://github.com/ciresdem/ivert) - Validation of DEMs using IceSat2.
 
 ### Get Started
 
