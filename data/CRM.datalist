@@ -1,0 +1,20 @@
+## CRM Datalist
+
+# topo and bathy low-res
+mar_grav -106:bathy_only=True:pnt_fltrs="rq:threshold=2:raster=gmrt" .001
+charts -200:pnt_fltrs="rq:theshold=2:raster=gmrt" .1
+charts -200:want_contours=True .1
+#csb -215:pnt_fltrs="rq:threshold=2:raster=gmrt;outlierz:multipass=4" .01
+hydronos:datatype=xyz -202:pnt_fltrs="rq:threshold=25:raster=gmrt" .1
+multibeam:exclude_survey_id=CNTL14RR -201:pnt_fltrs="rq:threshold=50:resample_raster=True:verbose=True:raster=gmrt;outlierz:multipass=4" 1
+
+#fabdem -104 .6
+ned -215:mask_coast=True:remove_flat=True .25
+ned1 -215:mask_coast=True 2
+
+# topo and topobathy - high-res
+ehydro -203 1
+hydronos:datatype=bag -202:explode=True 2
+CoNED -211 .5
+CUDEM -210 .5
+

@@ -29,7 +29,7 @@ Then download this datalist text file [CRM.datalist](/data/CRM.datalist) and put
 Next, run this "waffles" command (running ‘waffles —help’ will give a brief explainer of what all these command-line options do) and it'll automatically download the datasets needed from that datalist of the New Orleans area, and from that data will generate a brand-new DEM at 1/9-arc-second (~3 m) resolution.
 
 ```bash
-waffles -Rloc:"new orleans" -E.111111111s -Pepsg:4269+5703 -Amixed -Onola -Mcudem -w -m CRM.datalist
+waffles -Rloc:"new orleans" -E1s -Pepsg:4269+5703 -Amixed -Onola -Mcudem -w -m CRM.datalist
 ```
 
 This will output a DEM file named 'nola.tif'. All the downloaded data will be retained in their respective directories and will be re-used in subsequent iterations of DEM generation.
