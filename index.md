@@ -6,6 +6,8 @@ title: "CUDEM/IVERT: POSE Phase I"
 
 # CUDEM+IVERT: An Open-Source Framework for Rapid Development and Validation of High-Accuracy Digital Elevation Models
 
+![](/media/nola_hillshade.png)
+
 ## Code
 
 ### Links
@@ -34,8 +36,6 @@ If you want to visualize that DEM, use CUDEM's "perspecto" hillshade module to c
 ```bash
 perspecto nola.tif
 ```
-
-![](/media/nola_hillshade.png)
  
 If you'd like to learn more, check out more in-depth CUDEM Github tutorials and the various modules available.
 
