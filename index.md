@@ -25,7 +25,6 @@ title: "CUDEM/IVERT: POSE Phase I"
 * Utilizes a pre-processed, geographically optimized database of ICESat-2 photons to perform validations in seconds rather than hours.
 * Generates detailed statistical reports, summary plots, and error maps to quantify DEM accuracy.
 
-<!-- (Award #2449419) -->
 #### NSF POSE Phase I Project
 * Funded by the National Science Foundation, this project aims to scope and plan a sustainable Open-Source Ecosystem (OSE) around the CUDEM and IVERT software packages.
 * The project focuses on drafting a long-term governance framework, expanding documentation, and establishing best practices to support a growing community of users and contributors.
@@ -36,7 +35,7 @@ title: "CUDEM/IVERT: POSE Phase I"
 
 - [CUDEM](https://github.com/ciresdem/cudem) - FOSS DEM generation suite.
 - [IVERT](https://github.com/ciresdem/ivert) - Validation of DEMs using IceSat2.
-- [Zulip Channel](https://cudem.zulipchat.com/) - Join our Zulip Channel to connect with us.
+- [Zulip Channel](https://cudem.zulipchat.com/) - Join our Zulip Channel to connect and engage with us.
 
 ## Get Started
 
@@ -62,6 +61,6 @@ perspecto nola.tif
 
 <img src="/POSE/media/nola_hillshade.png" alt="NOLA Hillshade" width="50%" />
 
-If you'd like to learn more, check out more in-depth CUDEM Github tutorials [1](https://github.com/ciresdem/cudem/blob/main/docs/example_crm_malibu.md) [2](https://github.com/ciresdem/cudem/blob/main/docs/example_crm_norcal.md)  and the various modules available.
+If you'd like to learn more, check out more in-depth CUDEM Github tutorials [1](https://github.com/ciresdem/cudem/blob/main/docs/example_crm_malibu.md) [2](https://github.com/ciresdem/cudem/blob/main/docs/example_crm_norcal.md)  and the various [modules](https://github.com/ciresdem/cudem/blob/main/README.md#modules) available.
 
 Feel free to ask questions in our [**Zulip chat space**](https://cudem.zulipchat.com/)! And/or, fill out this [**Google form**](https://docs.google.com/forms/d/e/1FAIpQLScK46myKuESCu81U9zdKha8NXqHny86MZinutPvvTLoGAsDVQ/viewform) so the DEM team can get in touch with you.
