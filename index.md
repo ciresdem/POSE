@@ -9,10 +9,32 @@ title: "CUDEM/IVERT: POSE Phase I"
 <!-- ![](/media/nola_hillshade.png) -->
 <!-- <img src="/POSE/media/etopo22_northAmerica.png" alt="ETOPO22" width="50%" /> -->
 
+### Highlights
+#### CUDEM
+* A joint initiative between NOAA NCEI and CIRES to systematically generate Digital Elevation Models (DEMs) from local to global scales.
+* Shifts from project-based specifications to a continuous program (Continuously-Updated DEM) using free and open-source software (FOSS) for consistency and transparency.
+* Essential for determining coastal inundation timing, improving community preparedness, and supporting event forecasting and warning systems.
+* Provides a suite of tools for fetching public data, processing point clouds and rasters, gridding via various interpolation algorithms, and transforming datums.
+
+#### IVERT
+* A command-line tool that directly compares raster DEM elevations against high-precision photon data from NASA's ICESat-2 satellite.
+* Automatically handles horizontal and vertical datum transformations to ensure accurate alignment between the DEM and satellite data.
+* Filters out unreliable validation areas (such as oceans, lakes, and building footprints) to ensure validation occurs only against true bare-earth returns.
+* Utilizes a pre-processed, geographically optimized database of ICESat-2 photons to perform validations in seconds rather than hours.
+* Generates detailed statistical reports, summary plots, and error maps to quantify DEM accuracy.
+
+<!-- (Award #2449419) -->
+#### NSF POSE Phase I Project
+* Funded by the National Science Foundation, this project aims to scope and plan a sustainable Open-Source Ecosystem (OSE) around the CUDEM and IVERT software packages.
+* The project focuses on drafting a long-term governance framework, expanding documentation, and establishing best practices to support a growing community of users and contributors.
+* The team is actively hosting community workshops, virtual meetings, and student training sessions to gather feedback and democratize access to high-accuracy coastal elevation modeling tools.
+* By hardening these tools for wider public use, the project directly supports disaster prevention, infrastructure planning, and climate resilience efforts across public and private sectors.
+
 ## Links
 
 - [CUDEM](https://github.com/ciresdem/cudem) - FOSS DEM generation suite.
 - [IVERT](https://github.com/ciresdem/ivert) - Validation of DEMs using IceSat2.
+- [Zulip Channel](https://cudem.zulipchat.com/) - Join our Zulip Channel to connect with us.
 
 ## Get Started
 
