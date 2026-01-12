@@ -7,7 +7,7 @@ title: "CUDEM/IVERT: POSE Phase I"
 🤗 Welcome to our CUDEM/IVERT POSE Project
 
 <!-- ![](/media/nola_hillshade.png) -->
-<img src="/cudem/media/etopo22_northAmerica.png" alt="ETOPO22" width="50%" />
+<img src="/POSE/media/etopo22_northAmerica.png" alt="ETOPO22" width="50%" />
 
 ## Links
 
