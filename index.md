@@ -17,7 +17,7 @@ title: "CUDEM/IVERT: POSE Phase I"
 
 ### Get Started
 
-Interested in getting started building your first high-resolution DEM of New Orleans?
+Interested in getting started building your first high-resolution DEM? Here is an example for New Orleans:
 
 First, [install the CUDEM software](https://github.com/ciresdem/cudem?tab=readme-ov-file#installation-and-setup).
  
