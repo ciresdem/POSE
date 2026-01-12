@@ -4,11 +4,9 @@ title: "CUDEM/IVERT: POSE Phase I"
 
 # CUDEM+IVERT
 
-> An Open-Source Framework for Rapid Development and Validation of High-Accuracy Digital Elevation Models
-
 🤗 Welcome to our CUDEM/IVERT POSE Project
 
-This collaborative initiative integrates the Continuously-Updated DEM (CUDEM) framework for systematic elevation model generation with the IVERT tool for automated validation using ICESat-2 data.
+> An Open-Source Framework for Rapid Development and Validation of High-Accuracy Digital Elevation Models
 
 <!-- ![](/media/nola_hillshade.png) -->
 <!-- <img src="/POSE/media/etopo22_northAmerica.png" alt="ETOPO22" width="50%" /> -->
