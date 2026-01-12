@@ -2,7 +2,9 @@
 title: "CUDEM/IVERT: POSE Phase I"
 ---
 
-# CUDEM+IVERT: An Open-Source Framework for Rapid Development and Validation of High-Accuracy Digital Elevation Models
+# CUDEM+IVERT
+
+> An Open-Source Framework for Rapid Development and Validation of High-Accuracy Digital Elevation Models
 
 🤗 Welcome to our CUDEM/IVERT POSE Project
 
