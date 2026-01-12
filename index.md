@@ -9,7 +9,7 @@ title: "CUDEM/IVERT: POSE Phase I"
 > An Open-Source Framework for Rapid Development and Validation of High-Accuracy Digital Elevation Models
 
 <!-- ![](/media/nola_hillshade.png) -->
-<!-- <img src="/POSE/media/etopo22_northAmerica.png" alt="ETOPO22" width="50%" /> -->
+<img src="/POSE/media/etopo22_northAmerica.png" alt="ETOPO22" width="60%" />
 
 ### Highlights
 #### CUDEM
