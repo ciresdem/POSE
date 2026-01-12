@@ -62,6 +62,6 @@ perspecto nola.tif
 
 <img src="/POSE/media/nola_hillshade.png" alt="NOLA Hillshade" width="50%" />
 
-If you'd like to learn more, check out more in-depth CUDEM Github tutorials and the various modules available.
+If you'd like to learn more, check out more in-depth CUDEM Github tutorials [1](https://github.com/ciresdem/cudem/blob/main/docs/example_crm_malibu.md) [2](https://github.com/ciresdem/cudem/blob/main/docs/example_crm_norcal.md)  and the various modules available.
 
 Feel free to ask questions in our [**Zulip chat space**](https://cudem.zulipchat.com/)! And/or, fill out this [**Google form**](https://docs.google.com/forms/d/e/1FAIpQLScK46myKuESCu81U9zdKha8NXqHny86MZinutPvvTLoGAsDVQ/viewform) so the DEM team can get in touch with you.
