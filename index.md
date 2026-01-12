@@ -2,9 +2,9 @@
 title: "CUDEM/IVERT: POSE Phase I"
 ---
 
-🤗 Welcome to our CUDEM/IVERT POSE Project
-
 # CUDEM+IVERT: An Open-Source Framework for Rapid Development and Validation of High-Accuracy Digital Elevation Models
+
+🤗 Welcome to our CUDEM/IVERT POSE Project
 
 <!-- ![](/media/nola_hillshade.png) -->
 <img src="/POSE/media/nola_hillshade.png" alt="NOLA Hillshade" width="200"/>
@@ -22,7 +22,7 @@ Interested in getting started building your first high-resolution DEM? Here is a
 
 First, [install the CUDEM software](https://github.com/ciresdem/cudem?tab=readme-ov-file#installation-and-setup).
  
-Then download this datalist text file [CRM.datalist](/data/CRM.datalist) and put it in a working directory. Open it up and take a look, it tells CUDEM to get data from these various sources, weights the datasets in order of priority, and transforms all the data to a common horizontal and vertical datum in preparation of building it into a DEM (you can run "fetches --modules" to see all supported CUDEM dataset modules, this is just a few!).
+Then download this datalist text file [CRM.datalist](/data/CRM.datalist) and put it in a working directory. Open it up and take a look, it tells CUDEM to get data from these various sources, weights the datasets in order of priority, and transforms all the data to a common horizontal and vertical datum in preparation of building it into a DEM (you can run `fetches --modules` to see all supported CUDEM dataset modules, this is just a few!).
 
 Next, run this "waffles" command (running ‘waffles —help’ will give a brief explainer of what all these command-line options do) and it'll automatically download the datasets needed from that datalist of the New Orleans area, and from that data will generate a brand-new DEM at 1/9-arc-second (~3 m) resolution.
 
