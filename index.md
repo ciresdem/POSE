@@ -7,7 +7,7 @@ title: "CUDEM/IVERT: POSE Phase I"
 🤗 Welcome to our CUDEM/IVERT POSE Project
 
 <!-- ![](/media/nola_hillshade.png) -->
-<img src="/POSE/media/nola_hillshade.png" alt="NOLA Hillshade" width="50%" />
+<img src="/cudem/media/etopo22_northAmerica.png" alt="ETOPO22" width="50%" />
 
 ## Links
 
@@ -35,7 +35,9 @@ If you want to visualize that DEM, use CUDEM's `perspecto` hillshade module to c
 ```bash
 perspecto nola.tif
 ```
- 
+
+<img src="/POSE/media/nola_hillshade.png" alt="NOLA Hillshade" width="50%" />
+
 If you'd like to learn more, check out more in-depth CUDEM Github tutorials and the various modules available.
 
 Feel free to ask questions in our [**Zulip chat space**](https://cudem.zulipchat.com/)! And/or, fill out this [**Google form**](https://docs.google.com/forms/d/e/1FAIpQLScK46myKuESCu81U9zdKha8NXqHny86MZinutPvvTLoGAsDVQ/viewform) so the DEM team can get in touch with you.
