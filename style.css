@@ -4,6 +4,9 @@
 @import "{{ site.theme }}";
 
 /* Hides the standard header section found in most GitHub themes */
-h1, header, .page-header, .site-header {
-  display: none !important;
+h1:not([id]) {
+  display: none;
 }
+/* h1, header, .page-header, .site-header { */
+/*   display: none !important; */
+/* } */
