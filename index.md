@@ -18,7 +18,7 @@ title: "CUDEM/IVERT: POSE Phase I"
 * The team is actively hosting community workshops, virtual meetings, and student training sessions to gather feedback and democratize access to high-accuracy coastal elevation modeling tools.
 * By hardening these tools for wider public use, the project directly supports disaster prevention, infrastructure planning, and climate resilience efforts across public and private sectors.
 * Our software includes **CUDEM**, a suite of tools for fetching public data, processing point clouds and rasters, gridding via various interpolation algorithms, and transforming datums.
-* Out companion software **IVERT** porvides a command-line tool that rapidly validates raster DEMs against NASA’s ICESat-2 photon data by applying masking and filtering to exclude unreliable areas (e.g., water, buildings), performing automatic datum transformations, and generating detailed statistical reports and error maps.
+* Out companion software **IVERT** porvides a command-line tool that rapidly validates raster DEMs against NASA’s ICESat-2 photon data by masking and filtering unreliable areas (e.g., water, buildings), performing automatic datum transformations, and generating detailed statistical reports and error maps.
 
 ## Links
 
