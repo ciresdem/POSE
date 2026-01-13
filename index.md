@@ -36,6 +36,7 @@ Next, create a text file named `CRM.datalist` in your working directory. This fi
 
 ```text
 ## CRM Datalist
+## Format is path/fetch-module format-id:format-opts weight uncertainty
 
 # Bathymetry
 mar_grav -106:bathy_only=True:pnt_fltrs="rq:threshold=2:raster=gmrt" .001
@@ -43,14 +44,12 @@ charts -200:pnt_fltrs="rq:theshold=2:raster=gmrt" .1
 charts -200:want_contours=True .1
 hydronos:datatype=xyz -202:pnt_fltrs="rq:threshold=25:raster=gmrt" .1
 multibeam -201:pnt_fltrs="rq:threshold=50:raster=gmrt;outlierz:multipass=4" 1
+ehydro -203 1
+hydronos:datatype=bag -202:explode=True 2
 
 # Topography
 ned -215:mask_coast=True:remove_flat=True .25
 ned1 -215:mask_coast=True 2
-
-# High Quality Topography/Bathymetry
-ehydro -203 1
-hydronos:datatype=bag -202:explode=True 2
 ```
 
 (you can run `fetches --modules` to see all supported CUDEM dataset modules, this is just a few!).
