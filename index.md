@@ -43,7 +43,7 @@ charts -200:pnt_fltrs="rq:theshold=2:raster=gmrt" .1
 charts -200:want_contours=True .1
 csb -215:pnt_fltrs="rq:threshold=2:raster=gmrt;outlierz:multipass=4" .01
 hydronos:datatype=xyz -202:pnt_fltrs="rq:threshold=25:raster=gmrt" .1
-multibeam:exclude_survey_id=CNTL14RR -201:pnt_fltrs="rq:threshold=50:resample_raster=True:verbose=True:raster=gmrt;outlierz:multipass=4" 1
+multibeam -201:pnt_fltrs="rq:threshold=50:raster=gmrt;outlierz:multipass=4" 1
 
 # Topography
 ned -215:mask_coast=True:remove_flat=True .25
