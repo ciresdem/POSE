@@ -24,6 +24,7 @@ title: "CUDEM/IVERT: POSE Phase I"
 
 - [CUDEM](https://github.com/ciresdem/cudem) - FOSS DEM generation suite.
 - [IVERT](https://github.com/ciresdem/ivert) - Validation of DEMs using IceSat2.
+- [NSF POSE](https://nsf.elsevierpure.com/en/projects/pose-phase-i-cudemivert-an-open-source-framework-for-rapid-develo/) - NSF POSE Award Overview.
 - [Zulip Channel](https://cudem.zulipchat.com/) - Join our Zulip Channel to connect and engage with us.
 
 ## Get Started
