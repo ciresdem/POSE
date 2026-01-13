@@ -41,7 +41,6 @@ Next, create a text file named `CRM.datalist` in your working directory. This fi
 mar_grav -106:bathy_only=True:pnt_fltrs="rq:threshold=2:raster=gmrt" .001
 charts -200:pnt_fltrs="rq:theshold=2:raster=gmrt" .1
 charts -200:want_contours=True .1
-csb -215:pnt_fltrs="rq:threshold=2:raster=gmrt;outlierz:multipass=4" .01
 hydronos:datatype=xyz -202:pnt_fltrs="rq:threshold=25:raster=gmrt" .1
 multibeam -201:pnt_fltrs="rq:threshold=50:raster=gmrt;outlierz:multipass=4" 1
 
