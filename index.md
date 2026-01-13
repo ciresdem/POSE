@@ -58,10 +58,10 @@ CUDEM -210 .5
 
 (you can run `fetches --modules` to see all supported CUDEM dataset modules, this is just a few!).
 
-Next, run this `waffles` command (running `waffles —help` will give a brief explainer of what all these command-line options do) and it'll automatically download the datasets needed from that datalist of the New Orleans area, and from that data will generate a brand-new DEM at 1/9-arc-second (~3 m) resolution.
+Next, run this `waffles` command (running `waffles —help` will give a brief explainer of what all these command-line options do) and it'll automatically download the datasets needed from the `CRM.datalist` file that was just created of the New Orleans area, and from that data will generate a brand-new DEM at 1/9-arc-second (~3 m) resolution.
 
 ```bash
-waffles -Rloc:"new orleans" -E.1s -Pepsg:4269+5703 -Amixed -Onola -Mcudem -w -m CRM.datalist
+waffles -Rloc:"new orleans" -E.1s -Pepsg:4269+5703 -Amixed -Onola -Mcudem -w CRM.datalist
 ```
 
 This will output a DEM file named 'nola.tif'. All the downloaded data will be retained in their respective directories and will be re-used in subsequent iterations of DEM generation.
@@ -72,7 +72,7 @@ If you want to visualize that DEM, use CUDEM's `perspecto` hillshade module to c
 perspecto nola.tif
 ```
 
-<img src="/POSE/media/nola_hillshade.png" alt="NOLA Hillshade" width="50%" />
+<img src="/POSE/media/nola_hillshade.png" alt="NOLA Hillshade" width="60%" />
 
 If you'd like to learn more, check out more in-depth CUDEM Github tutorials [1](https://github.com/ciresdem/cudem/blob/main/docs/example_crm_malibu.md) [2](https://github.com/ciresdem/cudem/blob/main/docs/example_crm_norcal.md)  and the various [modules](https://github.com/ciresdem/cudem/blob/main/README.md#modules) available.
 
