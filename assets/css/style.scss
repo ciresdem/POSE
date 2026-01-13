@@ -1,9 +1,0 @@
----
----
-
-@import "{{ site.theme }}";
-
-/* Hides the standard header section found in most GitHub themes */
-h1, header, .page-header, .site-header {
-  display: none !important;
-}
