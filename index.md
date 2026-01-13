@@ -9,9 +9,10 @@ title: "CUDEM/IVERT: POSE Phase I"
 > An Open-Source Framework for Rapid Development and Validation of High-Accuracy Digital Elevation Models
 
 <!-- ![](/media/nola_hillshade.png) -->
-<img src="/POSE/media/etopo22_northAmerica_t.png" alt="ETOPO22" width="40%" />
 
 ## NSF POSE Phase I Project
+<img src="/POSE/media/etopo22_northAmerica.png" alt="ETOPO22" width="40%" align="right" style="margin-left: 10px;" />
+
 * Funded by the National Science Foundation, this project aims to scope and plan a sustainable Open-Source Ecosystem (OSE) around the CUDEM and IVERT software packages.
 * The project focuses on drafting a long-term governance framework, expanding documentation, and establishing best practices to support a growing community of users and contributors.
 * The team is actively hosting community workshops, virtual meetings, and student training sessions to gather feedback and democratize access to high-accuracy coastal elevation modeling tools.
