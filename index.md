@@ -4,7 +4,7 @@ title: "CUDEM/IVERT: POSE Phase I"
 
 <link rel="stylesheet" href="style.css" />
 
-# CUDEM+IVERT
+## CUDEM+IVERT
 
 🤗 Welcome to our CUDEM/IVERT POSE Project
 
