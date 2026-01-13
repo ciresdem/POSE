@@ -51,8 +51,6 @@ ned1 -215:mask_coast=True 2
 # High Quality Topography/Bathymetry
 ehydro -203 1
 hydronos:datatype=bag -202:explode=True 2
-CoNED -211 .5
-CUDEM -210 .5
 ```
 
 (you can run `fetches --modules` to see all supported CUDEM dataset modules, this is just a few!).
