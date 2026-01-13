@@ -32,7 +32,7 @@ Interested in getting started building your first high-resolution DEM? Here is a
 
 First, [install the CUDEM software](https://github.com/ciresdem/cudem?tab=readme-ov-file#installation-and-setup).
 
-Next, create a text file named `CRM.datalist` in your working directory. This file acts as a configuration list that tells CUDEM which data to fetch and how to prioritize it. [cite_start]Open the file in any text editor and paste the following content, which instructs the software to combine various low-resolution bathymetry and high-resolution topography sources:
+Next, create a text file named `CRM.datalist` in your working directory. This file acts as a configuration list that tells CUDEM which data to fetch and how to prioritize it. Open the file in any text editor and paste the following content, which instructs the software to combine various low-resolution bathymetry and high-resolution topography sources:
 
 ```text
 ## CRM Datalist
