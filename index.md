@@ -31,8 +31,32 @@ title: "CUDEM/IVERT: POSE Phase I"
 Interested in getting started building your first high-resolution DEM? Here is an example for New Orleans:
 
 First, [install the CUDEM software](https://github.com/ciresdem/cudem?tab=readme-ov-file#installation-and-setup).
- 
-Then download this datalist text file [CRM.datalist](/data/CRM.datalist) and put it in a working directory. Open it up and take a look, it tells CUDEM to get data from these various sources, weights the datasets in order of priority, and transforms all the data to a common horizontal and vertical datum in preparation of building it into a DEM (you can run `fetches --modules` to see all supported CUDEM dataset modules, this is just a few!).
+
+Next, create a text file named `CRM.datalist` in your working directory. This file acts as a configuration list that tells CUDEM which data to fetch and how to prioritize it. [cite_start]Open the file in any text editor and paste the following content, which instructs the software to combine various low-resolution bathymetry and high-resolution topography sources:
+
+```text
+## CRM Datalist
+
+# Bathymetry
+mar_grav -106:bathy_only=True:pnt_fltrs="rq:threshold=2:raster=gmrt" .001
+charts -200:pnt_fltrs="rq:theshold=2:raster=gmrt" .1
+charts -200:want_contours=True .1
+csb -215:pnt_fltrs="rq:threshold=2:raster=gmrt;outlierz:multipass=4" .01
+hydronos:datatype=xyz -202:pnt_fltrs="rq:threshold=25:raster=gmrt" .1
+multibeam:exclude_survey_id=CNTL14RR -201:pnt_fltrs="rq:threshold=50:resample_raster=True:verbose=True:raster=gmrt;outlierz:multipass=4" 1
+
+# Topography
+ned -215:mask_coast=True:remove_flat=True .25
+ned1 -215:mask_coast=True 2
+
+# High Quality Topography/Bathymetry
+ehydro -203 1
+hydronos:datatype=bag -202:explode=True 2
+CoNED -211 .5
+CUDEM -210 .5
+```
+
+(you can run `fetches --modules` to see all supported CUDEM dataset modules, this is just a few!).
 
 Next, run this `waffles` command (running `waffles —help` will give a brief explainer of what all these command-line options do) and it'll automatically download the datasets needed from that datalist of the New Orleans area, and from that data will generate a brand-new DEM at 1/9-arc-second (~3 m) resolution.
 
