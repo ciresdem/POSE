@@ -29,11 +29,11 @@ title: "CUDEM/IVERT: POSE Phase I"
 
 ## Get Started
 
-Interested in getting started building your first high-resolution DEM? Here is an example to generate a DEM from high-resolution CUDEM DEMs for New Orleans:
+Interested in getting started building your first high-resolution DEM? Here is an example to generate a DEM from high-resolution coastal DEMs of New Orleans:
 
 First, [install the CUDEM software](https://github.com/ciresdem/cudem?tab=readme-ov-file#installation-and-setup).
 
-Next, run this `waffles` command (running `waffles —help` will give a brief explainer of what all these command-line options do) and it'll automatically download the datasets needed from the `CRM.datalist` file that was just created of the New Orleans area, and from that data will generate a brand-new DEM at 1/9-arc-second (~3 m) resolution.
+Next, run this `waffles` command (running `waffles —help` will give a brief explainer of what all these command-line options do) and it'll automatically download the datasets needed from the CUDEM fetches module of the New Orleans area, and from that data will generate a brand-new DEM at 1/9-arc-second (~3 m) resolution.
 
 ```bash
 waffles -Rloc:"new orleans" -E.1s -Onola -Mcubic CUDEM
